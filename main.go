@@ -9,7 +9,7 @@ import (
 )
 
 var (
-	segs = flag.Int("segs", 255, "Total buckets number in Cache")
+	segs = flag.Int("segs", 256, "Total buckets number in Cache")
 	addr = flag.String("addr", ":8080", "TCP address to listen to")
 	compress = flag.Bool("compress", false, "Whether to enable transparent response compression")
 	kv = cache.New(*segs)
