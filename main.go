@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 	"github.com/valyala/fasthttp"
-	"learn/cache"
+	"gomap/cache"
 )
 
 var (
